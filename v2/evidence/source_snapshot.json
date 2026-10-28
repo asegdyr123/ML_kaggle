@@ -1,0 +1,26 @@
+{
+  "snapshot_scope": "v2 reproducibility closure from working tree on 2026-10-28",
+  "python": "3.12.4",
+  "original_source_sha256": {
+    "src/common.py": "78af9e3dca484bb81329d7e37affeb6191c31b7b5686ff218856b6afbcc79ef2",
+    "src/download_data.py": "c8332e37b6da6b0a92f6dd4c3c614cb86e39d8dd66ea4511ee7e5dc078532c35",
+    "src/build_features.py": "9aea69c493c59d216197072505f8aa84ffb011ddc94cdc1385556c3efe18fd16",
+    "src/build_snapshot_features.py": "cc32570c384e49fe44fecf71358360a75472c1af861dd59087d946a177a8ea7a",
+    "src/build_interest.py": "f6030ff1c04ca35aa89f384987704d582f4e93cbadce32389c19037b769a889d",
+    "src/run_experiment.py": "a657d2b0d1f3804a4e05c5f8f77f392a22d551e6937f2941917315234142dace",
+    "src/run_batch.py": "a8d4b2f1fbb360d34163c851fe63c8d1dee7cf93d7c2a2557665d75e4b5e6401",
+    "src/evaluate_ensemble.py": "0d87f30664dc89171248ddbb625011bb46960c5a7f56995b4989b8006d8f5b72",
+    "src/run_blends.py": "dbf2487e01d09ce16c57e9a488cb8875e4eef0497217840c2daa36476f54bec7",
+    "src/export_submission.py": "32414e4d6307fa07b4f6efadffe47029243247a4f2bd37ec926e167481717e50",
+    "src/pairwise_auc.py": "94fbc9380bbebbcecc0ceba7b61af4850be4ebd2762b1f1d5bd32e829e5a4589",
+    "tests/check_submission.py": "f443c3eed4d81b2d120a5215ce05b957b5cbb37a0d3e0e035142132cc63e447a",
+    "tests/check_validation.py": "674361eac064279817e45ef793580378e2267a000288170307ca75540fb3fd65",
+    "tests/check_te_rate_only.py": "eae0ae68b1c8d0a134e2d7772bc784e0d0c442975e080bc3e0ab8d044614cafb"
+  },
+  "source_files_copied_byte_for_byte": true,
+  "config_changes": "Only absolute workspace prefixes and backslash separators normalized; validation recipes reconstructed from saved experiment args.",
+  "shared_code_note": "Current shared run_experiment.py includes later explicit opt-ins. v2 recipes leave these disabled; no NN/post-v2 experiment scripts included.",
+  "historical_csv_sha256": "fcd0e300d640565131127ec7e1ae75574d8a2d635174063c3e7bf6b2b08dcea3",
+  "historical_csv_verified_at_packaging": true,
+  "retraining_performed": false
+}

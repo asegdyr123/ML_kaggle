@@ -1,0 +1,23 @@
+{
+  "name": "submission_20261026_v2",
+  "members": [
+    "f01_e16_lgb_snapshots",
+    "f01_e26_lgb_snapshots_small_sample",
+    "f01_e17_cat_snapshots",
+    "f01_e22_cat_interest_snapshots",
+    "f02_cat_lowcard",
+    "f02_cat_numeric"
+  ],
+  "weights": [
+    0.09375,
+    0.09375,
+    0.09375,
+    0.09375,
+    0.375,
+    0.25
+  ],
+  "local_validation": {
+    "20191115": 0.785733450485114,
+    "20191116": 0.7955248334672058
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "submission_version": "v2",
+  "confirmed_on": "2026-10-27",
+  "public_auc": 0.79757,
+  "submitted_user_reported": true,
+  "source": "Direct user confirmation and supplied screenshot",
+  "uploaded_bytes_independently_verified": false,
+  "private_auc": null,
+  "note": "Supersedes historical export-time not_uploaded/null score fields; not an API verification."
+}

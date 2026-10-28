@@ -1,0 +1,63 @@
+{
+  "recipe": {
+    "name": "submission_20261026_v2",
+    "members": [
+      "f01_e16_lgb_snapshots",
+      "f01_e26_lgb_snapshots_small_sample",
+      "f01_e17_cat_snapshots",
+      "f01_e22_cat_interest_snapshots",
+      "f02_cat_lowcard",
+      "f02_cat_numeric"
+    ],
+    "weights": [
+      0.09375,
+      0.09375,
+      0.09375,
+      0.09375,
+      0.375,
+      0.25
+    ],
+    "local_validation": {
+      "20191115": 0.785733450485114,
+      "20191116": 0.7955248334672058
+    }
+  },
+  "reconstructed_auc": {
+    "15": 0.785733450485114,
+    "16": 0.7955248334672058
+  },
+  "bootstrap": {
+    "b18_repr_day15": {
+      "method": "user-cluster Poisson bootstrap",
+      "replicates": 300,
+      "auc_95pct_interval": [
+        0.777239897978254,
+        0.7935013731447823
+      ],
+      "note": "Describes this local holdout; does not adjust for model-selection bias",
+      "auc_gain_95pct_interval": [
+        0.0023407544170889636,
+        0.005978208009131891
+      ]
+    },
+    "b19_repr_day16": {
+      "method": "user-cluster Poisson bootstrap",
+      "replicates": 300,
+      "auc_95pct_interval": [
+        0.7866086767263881,
+        0.8036334561163134
+      ],
+      "note": "Describes this local holdout; does not adjust for model-selection bias",
+      "auc_gain_95pct_interval": [
+        0.0020550932590502947,
+        0.0057027270978886905
+      ]
+    }
+  },
+  "final_categories": {
+    "f02_cat_lowcard": 48,
+    "f02_cat_numeric": 0
+  },
+  "rows": 404182,
+  "sha256": "fcd0e300d640565131127ec7e1ae75574d8a2d635174063c3e7bf6b2b08dcea3"
+}

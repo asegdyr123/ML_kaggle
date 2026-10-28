@@ -1,0 +1,21 @@
+[
+  {
+    "name": "v2_review_day16",
+    "members": [
+      "e16_lgb_snapshots_day16",
+      "e26_lgb_snapshots_small_sample_day16",
+      "e17_cat_snapshots_day16",
+      "e22_cat_interest_snapshots_day16",
+      "e49_cat_lowcard_day16",
+      "e51_cat_numeric_day16"
+    ],
+    "weights": [
+      0.09375,
+      0.09375,
+      0.09375,
+      0.09375,
+      0.375,
+      0.25
+    ]
+  }
+]

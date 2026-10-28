@@ -1,0 +1,110 @@
+{
+  "e19_lgb_snapshots_day15": {
+    "metrics": {
+      "auc": 0.7703119157366697,
+      "average_precision": 0.05499648175430401,
+      "log_loss": 0.043290611674074206
+    },
+    "best_iterations": 144,
+    "train_rows": 680453
+  },
+  "e30_lgb_snapshots_small_sample_day15": {
+    "metrics": {
+      "auc": 0.7718088194814425,
+      "average_precision": 0.0584921693423964,
+      "log_loss": 0.043419551549198486
+    },
+    "best_iterations": 99,
+    "train_rows": 264429
+  },
+  "e20_cat_snapshots_day15": {
+    "metrics": {
+      "auc": 0.7719394447855439,
+      "average_precision": 0.07538782436387995,
+      "log_loss": 0.0428085642747002
+    },
+    "best_iterations": 1262,
+    "train_rows": 680453
+  },
+  "e27_cat_interest_snapshots_day15": {
+    "metrics": {
+      "auc": 0.7698140020042242,
+      "average_precision": 0.0761363441231198,
+      "log_loss": 0.04293642115998863
+    },
+    "best_iterations": 2406,
+    "train_rows": 680453
+  },
+  "e48_cat_lowcard_day15": {
+    "metrics": {
+      "auc": 0.781896728590518,
+      "average_precision": 0.07825474105448041,
+      "log_loss": 0.04250101074203268
+    },
+    "best_iterations": 1262,
+    "train_rows": 680453
+  },
+  "e50_cat_numeric_day15": {
+    "metrics": {
+      "auc": 0.7833652570042203,
+      "average_precision": 0.07833742476133468,
+      "log_loss": 0.04246631805069635
+    },
+    "best_iterations": 1262,
+    "train_rows": 680453
+  },
+  "e16_lgb_snapshots_day16": {
+    "metrics": {
+      "auc": 0.7789039857482578,
+      "average_precision": 0.05733202479270281,
+      "log_loss": 0.045377819676437815
+    },
+    "best_iterations": 135,
+    "train_rows": 852084
+  },
+  "e26_lgb_snapshots_small_sample_day16": {
+    "metrics": {
+      "auc": 0.7805470595313017,
+      "average_precision": 0.05984720218060095,
+      "log_loss": 0.045378633731704865
+    },
+    "best_iterations": 130,
+    "train_rows": 331121
+  },
+  "e17_cat_snapshots_day16": {
+    "metrics": {
+      "auc": 0.7840477928367424,
+      "average_precision": 0.07648032823691525,
+      "log_loss": 0.04468037974466674
+    },
+    "best_iterations": 1594,
+    "train_rows": 852084
+  },
+  "e22_cat_interest_snapshots_day16": {
+    "metrics": {
+      "auc": 0.7835810451954042,
+      "average_precision": 0.0768755736055059,
+      "log_loss": 0.044658760847812506
+    },
+    "best_iterations": 1828,
+    "train_rows": 852084
+  },
+  "e49_cat_lowcard_day16": {
+    "metrics": {
+      "auc": 0.7921197343638641,
+      "average_precision": 0.07886874277152993,
+      "log_loss": 0.044370782921625544
+    },
+    "best_iterations": 1594,
+    "train_rows": 852084
+  },
+  "e51_cat_numeric_day16": {
+    "metrics": {
+      "auc": 0.7911978367573596,
+      "average_precision": 0.0802644824649846,
+      "log_loss": 0.04439617468525012
+    },
+    "best_iterations": 1594,
+    "train_rows": 852084
+  }
+}

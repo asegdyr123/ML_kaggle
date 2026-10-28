@@ -1,0 +1,78 @@
+{
+  "recipe": {
+    "name": "submission_20261026_v2",
+    "members": [
+      "f01_e16_lgb_snapshots",
+      "f01_e26_lgb_snapshots_small_sample",
+      "f01_e17_cat_snapshots",
+      "f01_e22_cat_interest_snapshots",
+      "f02_cat_lowcard",
+      "f02_cat_numeric"
+    ],
+    "weights": [
+      0.09375,
+      0.09375,
+      0.09375,
+      0.09375,
+      0.375,
+      0.25
+    ],
+    "local_validation": {
+      "20191115": 0.785733450485114,
+      "20191116": 0.7955248334672058
+    }
+  },
+  "members": [
+    {
+      "name": "f01_e16_lgb_snapshots",
+      "iterations": 135,
+      "sampled_train_rows": 1022942,
+      "prediction_sha256": "5dd918c05f6defef2eee3f1e26f62935017e24fd614c6f805c92f9e0e2f57895"
+    },
+    {
+      "name": "f01_e26_lgb_snapshots_small_sample",
+      "iterations": 130,
+      "sampled_train_rows": 396972,
+      "prediction_sha256": "f598bce4b6730157d2e5ec0e2ad11210a3b892de9cafde121c5a2be2b5b5e95c"
+    },
+    {
+      "name": "f01_e17_cat_snapshots",
+      "iterations": 1594,
+      "sampled_train_rows": 1022942,
+      "prediction_sha256": "b9e7fa9ba437a5a6fa68698ec974b7253efab8a8bc9542e287deb0ceeae822b3"
+    },
+    {
+      "name": "f01_e22_cat_interest_snapshots",
+      "iterations": 1828,
+      "sampled_train_rows": 1022942,
+      "prediction_sha256": "357b1660e32a3ea69aa5f215f86ebf1593a581d1299b00fc31f225e2d06978f7"
+    },
+    {
+      "name": "f02_cat_lowcard",
+      "iterations": 1594,
+      "sampled_train_rows": 1022942,
+      "prediction_sha256": "d28a4ccef9db3ce2930919bf8c05e8ef9ac9ec38494932b4d7a14164200884e7"
+    },
+    {
+      "name": "f02_cat_numeric",
+      "iterations": 1594,
+      "sampled_train_rows": 1022942,
+      "prediction_sha256": "0653e6f8cbcf1ad4b97a5d12bda0495cea76ab4125ebe441d7bbbb2c9bca999b"
+    }
+  ],
+  "training_rows_before_sampling": 2526320,
+  "test_rows": 404182,
+  "columns": [
+    "id",
+    "pctr"
+  ],
+  "id_rule": "zero-based original final_test.csv row position; log_id is not unique",
+  "format_evidence": "Captain's accepted 2026-10-25 submission package: id,pctr with zero-based row IDs",
+  "sha256": "fcd0e300d640565131127ec7e1ae75574d8a2d635174063c3e7bf6b2b08dcea3",
+  "minimum_pctr": 0.0002531709627597118,
+  "maximum_pctr": 0.8355831755313949,
+  "mean_pctr": 0.008106176279634931,
+  "iteration_rule": "Use selected day-16 best iteration counts unchanged; train on all dates, retaining configured negative sampling",
+  "kaggle_score": null,
+  "upload_status": "not_uploaded"
+}
